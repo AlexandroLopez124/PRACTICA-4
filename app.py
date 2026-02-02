@@ -8,11 +8,11 @@ app = Flask(__name__)
 @app.route('/')
 def hola_mundo():
 # Lo que se devuelve aquí se mostrará en el navegador
-    return '¡Hola! Mi pipeline de DevOps funciona correctamente (develop).'
+    return '¡Hola! Mi pipeline de DevOps funciona correctamente (release).'
 
 @app.route('/')
 def adios():
-    return '¡Adiós! Gracias por visitar mi aplicación (hotfix).'
+    return '¡Adiós! Gracias por visitar mi aplicación (release).'
 
 # Verifica si este archivo es el programa principal que se está ejecutando
 if __name__ == '__main__':
